@@ -1,0 +1,85 @@
+/* General */
+body{
+    border: 2px solid yellowgreen;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    /* 100vh is one 'scroll' */
+    min-height: 200vh;
+    margin: 0;
+    border: 0;
+}
+
+/* Header elements */
+.header{
+    display: flex;
+    height: 72px;
+    padding: 0 8em;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+}
+
+.right,
+.left{
+    display: flex;
+}
+
+.left{
+    gap: 2em;
+}
+
+.logo{
+    font-size: 32px;
+}
+
+a{
+    gap: 16px;
+}
+
+/* Introduction elements */
+.introduction{
+    border: 2px solid orange;
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    height: 24vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    border: 2px solid black;
+    display: flex;
+}
+
+.image{
+    display: flex;
+    border: 2px solid black;
+}
+
+
+/* Information elements */
+.information{
+    border: 2px solid blue;
+    display: flex;
+}
+
+/* Quotes elements */
+.quote{
+    border: 2px solid green;
+    display: flex; 
+}
+
+/* Action message elements */
+.action{
+    border: 2px solid red;
+    display: flex;
+}
+
+/* Footer elements */
+.footer{
+    border: 2px solid purple;
+    display: flex;
+}
