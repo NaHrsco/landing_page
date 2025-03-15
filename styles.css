@@ -10,6 +10,12 @@ body{
     border: 0;
 }
 
+img{
+    height: 20vh;
+    width: auto;
+    border-radius: 8px;
+}
+
 /* Header elements */
 .header{
     display: flex;
@@ -39,47 +45,88 @@ a{
 }
 
 /* Introduction elements */
-.introduction{
+.introduction {
     border: 2px solid orange;
     display: flex;
     background-color: #1F2937;
     color: white;
-    height: 24vh;
+    height: 48vh;
     justify-content: center;
     align-items: center;
 }
 
-.content{
+.content {
     border: 2px solid black;
     display: flex;
 }
 
-.image{
+.image {
     display: flex;
     border: 2px solid black;
 }
 
 
 /* Information elements */
-.information{
+.information {
     border: 2px solid blue;
+    height: 48vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blueviolet;
 }
 
 /* Quotes elements */
-.quote{
+.quote_place {
     border: 2px solid green;
+    height: 48vh;
     display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    border: 2px solid green;
+    width: 80vh;
+    font-size: 32px;
+    font-family: fantasy;
+}
+
+.person {
+    display: flex;
+    border: 2px solid green;
+    width: 80vh;
+}
+
+b {
+    text-align: center;
 }
 
 /* Action message elements */
-.action{
+.action {
     border: 2px solid red;
     display: flex;
+    height: 32vh;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer elements */
-.footer{
+.footer {
     border: 2px solid purple;
     display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
 }
